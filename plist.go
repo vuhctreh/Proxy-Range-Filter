@@ -17,7 +17,7 @@ func getInput(marker int) string {
 		input, _ := reader.ReadString('\n')
 		return strings.TrimSpace(input)
 	} else if marker == 1 {
-		fmt.Print("Please enter the range which you want to filter (e.g. proxies.txt): ")
+		fmt.Print("Please enter the range which you want to filter (e.g. 145): ")
 		input, _ := reader.ReadString('\n')
 		return strings.TrimSpace(input)
 	} else {
